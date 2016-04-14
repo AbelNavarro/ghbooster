@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # random exit
-if test `shuf -i 1-10 -n 1` -eq 1
+if test `shuf -i 1-10 -n 1` -ne 1
 then
   exit
 fi
